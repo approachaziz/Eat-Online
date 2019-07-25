@@ -1,0 +1,434 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Components/Background/back.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* .goolRadiusTabs{
+  border-radius: 12pt;
+  margin-top: -22%;
+} */
+.ModelStyle{
+  margin-top: 25%;
+}
+.LoginKeAnder{
+  padding-bottom: 12%;
+  overflow: visible;
+
+}
+.AfterDeliver{
+  background-color: brown;
+}
+.bordRadius{
+  width: 22rem;
+  border-radius: 12pt;
+}
+.PaddingTitle{
+  padding-left: 30%;
+  
+}
+.clr2{
+  color: #dbe3ec;
+  text-shadow: 2px 3px 2px #5f4e1e;
+ 
+}
+.clr1{
+  color: #e9e0de;
+  text-shadow: 3px 4px 3px #5f4e1e;
+
+}
+.clr3{
+  color: #c01e18;
+  text-shadow: 3px 4px 3px #5f4e1e;
+
+}
+.OnlineKaClr{
+  /* color:color(linear-gradient) */
+  color: linear-gradient(to right, sandybrown ,rgb(180, 172, 127));
+  
+}
+.mr-auto{
+}
+.SelectionHeadings{
+  color:white;
+  font-family: cursive;
+  font-size: 20pt;
+  transition: width 1s, height 1s, transform 1s;
+}
+.SelectionHeadings:hover{
+  transform:Scale(1.1);
+ 
+}
+.navText{
+  margin-top: -1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lineMeKro{
+  display:inline;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:3%;
+  border-radius: 12pt;
+  text-align: center;
+  /* opacity: 22%; */
+  outline: none;
+}
+.options{
+  font-family: cursive;
+  font-size: 15pt;
+  text-align: center;
+  margin-left: 12%;
+}
+.optionBar{
+  background-color:sandybrown;
+  padding:2%;
+  border-radius: 12pt;
+  opacity:0.6%;
+  outline:none;
+}
+.searchbtn{
+  width:60%;
+  padding-left:4%;
+  /* padding-right: 12%; */
+  background-color: sandybrown;
+  border-radius: 45%;
+  font-family:cursive; 
+  transition: width 0.5s, height 1s, transform 1s;
+  opacity:0.3%;
+  /* padding-left: 12%; */
+  outline: none;
+  font-size: 16pt;
+  color:white;
+}
+.searchbtn:hover{
+  transform:Scale(1.1);
+}
+.selectStyle{
+  border-bottom-left-radius: 12pt;
+}
+.SearchBarOnSlider{
+  background-color: rgba(243, 143, 61, 0.336);
+  padding: 2%;
+  width:42%;
+  border-radius: 12px;
+  font-size:16pt;
+  text-align: center;
+  font-family: cursive;
+  font-style: oblique;
+  outline: none;
+  transition: width 1s, height 1s, transform 1s;
+   
+  margin-left:28%;
+  /* cursor:pointer; */
+}
+.SearchBarOnSlider:hover{
+  background-color: rgba(243, 143, 61, 0.678);
+  transform:Scale(1.1);
+ 
+}
+.LoginContainer{
+  margin-left: 29%;
+  box-shadow: 13px 5px #888888;
+  /* margin-bottom: 20%; */
+}
+.my-3{
+  /* margin-bottom: 20%; */
+  font-size: 16pt;
+
+}
+.LoginHead{
+
+  background-image: linear-gradient(to right, sandybrown ,rgb(180, 172, 127));
+  border-radius: 12pt;
+  width:120%;
+  margin-left:-10%;
+  padding:4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: width 1s, height 1s, transform 1s;
+  margin-bottom:9%;
+}
+.LoginHead:hover{
+  transform:Scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.TableStyle{
+  background-color: white;
+}
+.TableBackDashboard{
+background-color: white;
+}
+.CartHeading{
+  font-size:18pt;
+  border-style:double;
+  border-bottom-color: coral;
+  border-radius: 12px;
+  border-top-color: sandybrown;
+  margin-left: 27%;
+  padding-left:9%;
+  font-family: cursive;
+  width:50%;
+  box-shadow: 13px 5px #888888;
+
+}
+.CartP{
+  display: inline;
+  /* margin-left:18%; */
+  border-style: dashed;
+  border-radius: 16pt;
+  box-shadow: 13px 5px 6px #cec6a2;
+padding:2%;
+/* margin-left: %; */
+}
+.ItemShow{
+  margin-left:-20%;
+  /* margin-top: 12%; */
+}
+.CartP1{
+  display: inline;
+  /* margin-left:38%; */
+
+}
+.modelMargin{
+  margin-top: 55%;
+}
+.CartShow{
+  border-style: groove;
+  border-radius:12pt;
+  padding-left: 19%;
+  font-size: 14pt;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 3%;
+  box-shadow: 4px 8px 6px #eb9e10;
+
+}
+.thingsShowSpan{
+  margin-left:25%;
+  /* text-decoration: underline; */
+}
+.mt-9{
+  display:inline-flex;
+  justify-content: right
+}
+.align2{
+  display: inline-flex;
+
+  justify-content: center;
+
+}
+.RatingClr
+{
+  margin-left: 120%;
+  color: black;
+}
+.rangBadal{
+  background-color:sandybrown
+}
+.SelectCityTag{
+  border-style: groove;
+  width: 30%;
+  margin-left: 31%;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.message{
+border-style: solid;
+border-bottom-color: coral;
+border-top-color: darkkhaki;
+border-top-style: double;
+border-radius: 19px;
+width:19%;
+margin-left: 40%;
+font-family: cursive;
+font-style: oblique;
+padding: 10px;
+box-shadow: 5px 10px 18px #888888;
+}
+.SelectBtnCity{
+color:white;
+font-style: italic;
+}
+.SelectBtnCity:hover{
+color:white;
+text-decoration: none;
+}
+.btnContainer{
+  background-color:#e45151fa;
+}
+.RadiusGoolKro{
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  
+}
+#confmPass{
+  border-radius:12pt;
+}
+.BtnColorChangeCityCard{
+  background-color: sandybrown;
+}
+.AdminPanelText{
+  /* background: sandybrown; */
+/* border-style: double; */
+color: white;
+font-family: 'Times New Roman', Times, serif;
+/* border-radius: 60%; */
+padding-left: 23%;
+border-collapse:collapse;
+margin-top: 4%;
+/* width:119.5%; */
+margin-left: 4.5%;
+}
+.headStyle{
+  color: aliceblue;
+  font-size: 22pt; 
+  font-family: cursive;
+}
+.sideBarColor{
+  background-color: rgba(244, 165, 96, 0.979);
+  border-bottom-left-radius: 12pt;
+  border-bottom-right-radius: 12pt;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+.SideBarPanelsText{
+  color:white;
+  padding-top: 13%;
+  margin-top:13%;
+  
+}
+.embed-responsive-item{
+  border-radius:12pt;
+}
+.SideBarPanelsText:hover{
+text-decoration: none;
+color:whitesmoke;
+}
+#msg{
+  background-Color:white;
+  padding:2%;
+  padding-bottom: -15%;
+  /* padding-right:10%; */
+  border-radius:12pt;
+}
+.PassMatchDiv{
+  background-color:rgb(243, 236, 236);
+  border-bottom-left-radius: 16%;
+  border-bottom-right-radius: 16%;
+  padding-bottom:12%;
+}
+.SideBarHead{
+  
+  /* background-color: sandybrown; */
+  font-size:27pt;
+  /* border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 20px; */
+  padding-bottom: 7.3%;
+  padding-top: 13%;
+  padding-left: 4%;
+  font-family:cursive;
+  color:white;
+  margin-top:13%;
+  
+}
+.SideBarHead:hover{
+  text-decoration: none;
+  color:wheat;
+}
+.bottomSignText{
+  color:white;
+  margin-top: 15%;
+  font-style: italic;
+}
+.bottomSignTextname{
+  color:white;
+  /* text-decoration: underline; */
+  font-family: cursive;
+  text-shadow: 25px 15px 5px #5f4e1e;
+  margin-left: 20%;
+}
+.list-unstyled{
+  color:white;
+  font-size: 13pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+}
+.list-unstyled:hover{
+  text-decoration: none;
+  color:white;
+}
+.headStyle:hover{
+text-decoration: none;
+color:aliceblue;
+}
+.inline{
+  display: inline;
+  font-style: italic
+}
+.differP{
+  font-size:13pt;
+}
+.differP1{
+  font-size:13pt;
+  margin-top: -3%;
+}
+.CEOImageKeNeeche{
+  border-style:inset;
+  font-size:16pt;
+  color:white;
+  font-family:cursive;
+  border-radius: 12pt;
+  width:75%;
+  height:25%;
+  margin-left:13%;
+  font-style:bold;
+}
+.w3-dropdown-hover{
+  margin-bottom: 20%;
+  padding:3%;
+  opacity: 0.5;
+}
+.footer1{
+  background-color: sandybrown;
+  opacity:0.6;
+  border-top-left-radius: 35pt;
+  border-top-right-radius: 35pt;
+  transition: transform 3s;
+  
+}
+.footer1:hover{
+  opacity:1;
+  /* transform:opacity(1); */
+}
+.font-small pt-4 mt-4{
+  background-color: coral;
+  /* transition: width 1s, height 1s, transform 1s; */
+}
+.footer-copyright text-center py-3{
+  background-color: coral;
+}
+.hotelText{
+  font-size:34pt;
+  width:25%;
+  margin-left: 4%;
+  border-radius: 15pt;
+  font-family:cursive;
+  color: white;
+  text-shadow: 22px 21px 14px #000000;
+  display:inline;
+}
+.footerText{
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  font-style: oblique;
+
+}
