@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "engines": {
+      "node": "10.3.0"
+    }
+    
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +23,7 @@
     "express": "^4.17.1",
     "express-session": "^1.16.1",
     "hbs": "^4.0.4",
-    "heroku": "^7.25.0",
+    "heroku": "^7.26.2",
     "http-proxy": "^1.17.0",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
