@@ -36,6 +36,6 @@
     "react-delay-render": "^0.1.2",
     "react-loading-screen": "0.0.17",
     "redux-logger": "^3.0.6",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   }
 }
